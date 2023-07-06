@@ -3,7 +3,7 @@
  * _sqrt_recursion - squar
  *
  * @n: nnnnn
- *
+ * @val: squar
  *
  * Return: 1 if success
 */
@@ -17,8 +17,7 @@ int _sqrt_recursion(int n)
 /**
  * squar - squar
  * @n: int to find squar
- * @val: squar root
- *
+ * @val: squar root thisi
  * Return: val
 */
 
