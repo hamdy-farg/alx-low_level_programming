@@ -6,7 +6,7 @@
  * main - main
  * @argc: adsgd
  * @argv: dsdagdas
- * 
+ *
  * Return: 0
 */
 
@@ -25,7 +25,7 @@ int main(int  argc, char *argv[])
 	num = atoi(argv[1]);
 	result = 0;
 
-	if(num < 0)
+	if (num < 0)
 	{
 		printf("0\n");
 		return (0);
@@ -39,6 +39,6 @@ int main(int  argc, char *argv[])
 			num -= coins[j];
 		}
 	}
-	printf("%d\n",result);
+	printf("%d\n", result);
 	return (0);
 }
