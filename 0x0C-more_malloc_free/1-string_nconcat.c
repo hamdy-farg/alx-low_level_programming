@@ -7,7 +7,7 @@
  * @s2: sdgdsg
  * @n: sdagdsg
  *
- * Returne: dsag
+ * Return: dsag
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -20,7 +20,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	
 	for (s1_len = 0; s1[s1_len] != '\0'; s1_len++)
 		;
 	for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
@@ -45,11 +44,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (j = 0; j < n; j++)
 	{
-
 		t[i] = s2[j];
 		i++;
 	}
-
 	t[i] = '\0';
 	return (t);
 }
