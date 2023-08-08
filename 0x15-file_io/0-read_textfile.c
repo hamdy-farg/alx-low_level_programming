@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* ssize_t read_textfil - ffff
+* read_textfile - ffff
 * @filename: dsag
 * @letters: gggggg
 * Return: fffff
