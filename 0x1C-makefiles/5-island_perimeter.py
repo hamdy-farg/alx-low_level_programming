@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+""" adsgsdag """
 def island_perimeter(grid):
+    """dasgdsg """
     hight = 0
     width = 0
     len1 = len(grid)
